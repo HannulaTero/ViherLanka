@@ -2,6 +2,7 @@
   "$GMNotes":"v1",
   "%Name":"README_ViherLanka",
   "name":"README_ViherLanka",
+  "openedOnFirstLoad":true,
   "parent":{
     "name":"ViherLanka",
     "path":"folders/ViherLanka.yy",
