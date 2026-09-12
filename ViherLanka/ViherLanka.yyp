@@ -1,0 +1,44 @@
+{
+  "$GMProject":"v1",
+  "%Name":"ViherLanka",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"ViherLanka x Examples","folderPath":"folders/ViherLanka x Examples.yy","name":"ViherLanka x Examples","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ViherLanka","folderPath":"folders/ViherLanka.yy","name":"ViherLanka","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"ViherLanka",
+  "resources":[
+    {"id":{"name":"README_ViherLanka","path":"notes/README_ViherLanka/README_ViherLanka.yy",},},
+    {"id":{"name":"OBJ_ViherLanka_Example_DIRECT","path":"objects/OBJ_ViherLanka_Example_DIRECT/OBJ_ViherLanka_Example_DIRECT.yy",},},
+    {"id":{"name":"OBJ_ViherLanka_Example_MACRO","path":"objects/OBJ_ViherLanka_Example_MACRO/OBJ_ViherLanka_Example_MACRO.yy",},},
+    {"id":{"name":"OBJ_ViherLanka_ExampleInfo","path":"objects/OBJ_ViherLanka_ExampleInfo/OBJ_ViherLanka_ExampleInfo.yy",},},
+    {"id":{"name":"RM_ViherLanka_Example","path":"rooms/RM_ViherLanka_Example/RM_ViherLanka_Example.yy",},},
+    {"id":{"name":"ViherLanka_HANDLES","path":"scripts/ViherLanka_HANDLES/ViherLanka_HANDLES.yy",},},
+    {"id":{"name":"ViherLanka_MACROS","path":"scripts/ViherLanka_MACROS/ViherLanka_MACROS.yy",},},
+    {"id":{"name":"ViherLanka","path":"scripts/ViherLanka/ViherLanka.yy",},},
+    {"id":{"name":"SPR_ViherLanka_Example","path":"sprites/SPR_ViherLanka_Example/SPR_ViherLanka_Example.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"RM_ViherLanka_Example","path":"rooms/RM_ViherLanka_Example/RM_ViherLanka_Example.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}

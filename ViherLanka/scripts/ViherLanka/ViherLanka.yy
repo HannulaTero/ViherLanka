@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ViherLanka",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ViherLanka",
+  "parent":{
+    "name":"ViherLanka",
+    "path":"folders/ViherLanka.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

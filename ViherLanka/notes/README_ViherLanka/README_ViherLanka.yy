@@ -1,0 +1,12 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"README_ViherLanka",
+  "name":"README_ViherLanka",
+  "parent":{
+    "name":"ViherLanka",
+    "path":"folders/ViherLanka.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+  "shouldOpenOnLoad":true,
+}
