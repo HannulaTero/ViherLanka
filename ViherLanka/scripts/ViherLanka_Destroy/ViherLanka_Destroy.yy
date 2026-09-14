@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ViherLanka_Destroy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ViherLanka_Destroy",
+  "parent":{
+    "name":"ViherLanka",
+    "path":"folders/ViherLanka.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

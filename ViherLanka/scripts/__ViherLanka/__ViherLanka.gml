@@ -50,9 +50,9 @@ function __ViherLanka(_context, _Function)
     _thread = {
       key     : _key, 
       context : _context,
+      array   : _prototype,
       index   : 0,
       count   : array_length(_prototype),
-      array   : _prototype,
     };
     threads[? _key] = _thread;
   }

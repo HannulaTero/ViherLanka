@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_ViherLanka_Example_02_Waiting",
+  "%Name":"OBJ_ViherLanka_Example_03_Waiting",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_ViherLanka_Example_02_Waiting",
+  "name":"OBJ_ViherLanka_Example_03_Waiting",
   "overriddenProperties":[],
   "parent":{
     "name":"ViherLanka x Examples",
