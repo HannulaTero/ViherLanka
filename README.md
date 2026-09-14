@@ -15,6 +15,8 @@ Use the ViherLanka inside instance-events.
 Calling the ViherLanka advances it, so instances are responsible
 for advancing them.
 
+[Itchio page](https://terohannula.itch.io/viherlanka)
+
 ---
 MACRO SYNTAX
 ---
