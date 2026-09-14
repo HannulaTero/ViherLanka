@@ -23,6 +23,7 @@
   },
   "name":"ViherLanka",
   "resources":[
+    {"id":{"name":"LICENSE_ViherLanka","path":"notes/LICENSE_ViherLanka/LICENSE_ViherLanka.yy",},},
     {"id":{"name":"README_ViherLanka","path":"notes/README_ViherLanka/README_ViherLanka.yy",},},
     {"id":{"name":"OBJ_ViherLanka_Example_00_Simplified","path":"objects/OBJ_ViherLanka_Example_00_Simplified/OBJ_ViherLanka_Example_00_Simplified.yy",},},
     {"id":{"name":"OBJ_ViherLanka_Example_01_MacroUsage","path":"objects/OBJ_ViherLanka_Example_01_MacroUsage/OBJ_ViherLanka_Example_01_MacroUsage.yy",},},

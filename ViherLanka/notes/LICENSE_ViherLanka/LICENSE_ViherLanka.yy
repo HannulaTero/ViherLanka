@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"LICENSE_ViherLanka",
+  "name":"LICENSE_ViherLanka",
+  "parent":{
+    "name":"ViherLanka",
+    "path":"folders/ViherLanka.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
