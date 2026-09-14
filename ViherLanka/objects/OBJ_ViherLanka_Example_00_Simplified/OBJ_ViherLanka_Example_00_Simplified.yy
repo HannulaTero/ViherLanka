@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_ViherLanka_Example_DIRECT",
+  "%Name":"OBJ_ViherLanka_Example_00_Simplified",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_ViherLanka_Example_DIRECT",
+  "name":"OBJ_ViherLanka_Example_00_Simplified",
   "overriddenProperties":[],
   "parent":{
     "name":"ViherLanka x Examples",

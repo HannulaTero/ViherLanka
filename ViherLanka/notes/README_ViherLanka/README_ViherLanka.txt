@@ -4,7 +4,7 @@
 VIHERLANKA 
 Simple GreenThread-type for instances.
 
-by Tero Hannula 2026.12.09
+by Tero Hannula 2026.14.09
 
 ---------------------------------------------------------------
 ===============================================================
@@ -23,7 +23,24 @@ for advancing them.
 
 
 ===============================================================
-HOW TO USE - MACROS
+MACRO SYNTAX HANDLES.
+===============================================================
+
+// Default macro handles:
+// -> These can be redefined in ViherLanka_HANDLES.
+VIHERLANKA_BEGIN
+VIHERLANKA_SPLIT
+VIHERLANKA_END
+
+// Macro-definitions for logic.
+// -> Don't touch these, these define macro-syntax logic.
+__VIHERLANKA_BEGIN
+__VIHERLANKA_SPLIT
+__VIHERLANKA_END
+
+
+===============================================================
+HOW TO USE
 ===============================================================
 
 VIHERLANKA_BEGIN 
@@ -47,38 +64,47 @@ VIHERLANKA_SPLIT
   show_debug_message("Finished");
   return true;
   
-VIHERLANKA_FINISH
+VIHERLANKA_END
 
 
 ===============================================================
-HOW TO USE - Directly.
+WHAT MACROS PRODUCE
 ===============================================================
-
 
 ViherLanka(self, function() 
 { 
-  return [ function() {
-    // This part is executed once.
-    // Reason is it doesn't return anything (undefined)
-    // -> which is interpreted as "true", finished.
-    show_debug_message("Starting");
-    self.index = 0;
+  return [ 
+    function(_context) { 
+      with(_context) 
+      {
+        // This part is executed once.
+        // Reason is it doesn't return anything (undefined)
+        // -> which is interpreted as "true", finished.
+        show_debug_message("Starting");
+        self.index = 0;
+      }
   
-  }, function() {
-    // Using split will split execution to next frame.
-    x += 1;
+    }, function(_context) {
+      with(_context) 
+      {
+        // Using split will split execution to next frame.
+        x += 1;
   
-    // This is executed until returns true.
-    self.index += 1;
-    return (self.index >= 60);
+        // This is executed until returns true.
+        self.index += 1;
+        return (self.index >= 60);
+      }
 
-  }, function() {
-    // Final split, the "return true;" could be omitted out,
-    // but here I am just making it explicit.
-    show_debug_message("Finished");
-    return true;
-  
-  } ];
+    }, function(_context) {
+      with(_context) 
+      {
+        // Final split, the "return true;" could be omitted out,
+        // but here I am just making it explicit.
+        show_debug_message("Finished");
+        return true;
+      }
+    } 
+  ];
 });
 
 
