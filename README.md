@@ -1,10 +1,9 @@
 # ViherLanka
-[GameMaker] Simple GreenThread type of functionality, allows instances split execution to multiple frames.
-
+### [GameMaker] Simple GreenThread type of functionality, allows instances split execution to multiple frames.
+<img width="128" height="128" align="right" alt="icon-ABoxBlur" src="https://github.com/user-attachments/assets/412ea6ae-3004-4134-8842-49accfb3b55b" />
 
 ---
-GENERAL INFORMATION
----
+### GENERAL INFORMATION
 
 This asset allows you to split execution over several frames.
 
