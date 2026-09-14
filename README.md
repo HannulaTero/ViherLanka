@@ -28,9 +28,10 @@ VIHERLANKA_END    // Finishes the GreenThread.
 
 // Macro-definitions for logic.
 // -> Don't touch these, these define macro-syntax logic.
-__VIHERLANKA_BEGIN
-__VIHERLANKA_SPLIT
-__VIHERLANKA_END
+// -> But you can assign new macros to relabel these, like in _HANDLES
+__VIHERLANKA_BEGIN  // Begins the GreenThread.
+__VIHERLANKA_SPLIT  // Splits the execution.
+__VIHERLANKA_END    // Finishes the GreenThread.
 ```
 ---
 HOW TO USE
