@@ -112,5 +112,5 @@ __ViherLanka(self, function()
 ```
 
 ---
-I needed this kind of functionality during 50th GM48 gamejam, so implemented this in game. But during the jam also decided to make it own asset.
+I needed this kind of functionality during (50th GM48 gamejam)[https://gm48.net/game-jams/zen/games/outside-view], so implemented this in game. But during the jam also decided to make it own asset.
 
