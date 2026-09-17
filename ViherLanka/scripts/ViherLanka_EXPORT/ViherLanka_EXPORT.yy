@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"__ViherLanka",
+  "%Name":"ViherLanka_EXPORT",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__ViherLanka",
+  "name":"ViherLanka_EXPORT",
   "parent":{
-    "name":"Private",
-    "path":"folders/ViherLanka/Private.yy",
+    "name":"ViherLanka",
+    "path":"folders/ViherLanka.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

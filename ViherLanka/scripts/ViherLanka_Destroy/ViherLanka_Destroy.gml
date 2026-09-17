@@ -7,6 +7,6 @@
 */ 
 function ViherLanka_Destroy(_thread)
 {
-  ds_map_delete(__ViherLanka.threads, _thread.key);
+  ds_map_delete(ViherLanka.threads, _thread.key);
   delete _thread;
 }

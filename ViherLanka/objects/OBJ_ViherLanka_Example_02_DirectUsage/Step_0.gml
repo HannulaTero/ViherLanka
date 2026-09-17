@@ -4,7 +4,7 @@
 // This is more to show what macros produce (+ formatted a bit).
 // ViherLanka is NOT meant to be used directly, as it's bit verbose.
 
-__ViherLanka(self, function() 
+ViherLanka(self, function() 
 { 
   return [ 
     function(_context) { 

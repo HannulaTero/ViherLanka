@@ -15,7 +15,7 @@
 * @param {Struct | Id.Instance} _context
 * @param {Function}             _Function Function which returns array of methods.
 */ 
-function __ViherLanka(_context, _Function)
+function ViherLanka(_context, _Function)
 {
   static prototypes = ds_map_create();
   static threads = ds_map_create();

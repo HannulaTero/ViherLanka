@@ -1,0 +1,33 @@
+{
+  "Version": "1.0",
+  "assets": [
+    {
+      "export": 2,
+      "name": "__ViherLanka"
+    },
+    {
+      "export": 2,
+      "name": "__ViherLanka_MACROS"
+    },
+    {
+      "export": 2,
+      "name": "LICENSE_ViherLanka"
+    },
+    {
+      "export": 2,
+      "name": "README_ViherLanka"
+    },
+    {
+      "export": 2,
+      "name": "ViherLanka_Destroy"
+    },
+    {
+      "export": 2,
+      "name": "ViherLanka_EXPORT"
+    },
+    {
+      "export": 2,
+      "name": "ViherLanka_HANDLES"
+    }
+  ]
+}

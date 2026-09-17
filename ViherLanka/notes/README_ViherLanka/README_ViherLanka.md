@@ -1,48 +1,48 @@
-===============================================================
----------------------------------------------------------------
+---
+### VIHERLANKA 
 
-VIHERLANKA 
 Simple GreenThread-type for instances.
 
-by Tero Hannula 2026.14.09
+by Tero Hannula 2026_09_17
 
----------------------------------------------------------------
-===============================================================
-GENERAL INFORMATION
-===============================================================
+
+---
+### GENERAL INFORMATION
+
 
 This asset allows you to split execution over several frames.
+ In short, if you setup ViherLanka in Step-event, 
+it will execute one split in one frame, 
+and optionally moves to next split. 
+By default it always moves to next split for next frame, 
+but if you return "false" (telling split hasn't been finished), 
+it will execute the same split on next frame too. 
+You may put ViherLanka in loop, 
+so it keeps advancing multiple splits.
 
-Either use ViherLanka-function directly, or utilize the macros.
-Macros reduce the required boilerplate though.
-You can rename the macros in HANDLES.
+Calling BEGIN returns handle for thread.
+You may use `ViherLanka_Destroy(thread)` to delete current thread.
+In step-event example, as no active thread exists,
+it will create new one and start executing it.
 
-Use the ViherLanka inside instance-events.
-Calling the ViherLanka advances it, so instances are responsible
-for advancing them.
+---
+### MACRO SYNTAX HANDLES.
 
-
-===============================================================
-MACRO SYNTAX HANDLES.
-===============================================================
-
-// Default macro handles:
-// -> These can be redefined in ViherLanka_HANDLES.
+```gml
+// Begins greenthread-block.
 VIHERLANKA_BEGIN
+  
+// Makes new split point.
 VIHERLANKA_SPLIT
+  
+// Ends greenthread-block.
 VIHERLANKA_END
+```
 
-// Macro-definitions for logic.
-// -> Don't touch these, these define macro-syntax logic.
-__VIHERLANKA_BEGIN
-__VIHERLANKA_SPLIT
-__VIHERLANKA_END
+---
+### HOW TO USE
 
-
-===============================================================
-HOW TO USE
-===============================================================
-
+```gml
 VIHERLANKA_BEGIN 
   // This part is executed once.
   // Reason is it doesn't return anything (undefined)
@@ -65,12 +65,12 @@ VIHERLANKA_SPLIT
   return true;
   
 VIHERLANKA_END
+```
 
+---
+### WHAT MACROS PRODUCE
 
-===============================================================
-WHAT MACROS PRODUCE
-===============================================================
-
+```gml
 ViherLanka(self, function() 
 { 
   return [ 
@@ -106,7 +106,7 @@ ViherLanka(self, function()
     } 
   ];
 });
-
+```
 
 ===============================================================
 
