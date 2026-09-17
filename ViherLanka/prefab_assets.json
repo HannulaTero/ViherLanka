@@ -3,14 +3,6 @@
   "assets": [
     {
       "export": 2,
-      "name": "__ViherLanka"
-    },
-    {
-      "export": 2,
-      "name": "__ViherLanka_MACROS"
-    },
-    {
-      "export": 2,
       "name": "LICENSE_ViherLanka"
     },
     {
@@ -18,15 +10,19 @@
       "name": "README_ViherLanka"
     },
     {
-      "export": 2,
+      "export": 1,
+      "name": "ViherLanka"
+    },
+    {
+      "export": 1,
       "name": "ViherLanka_Destroy"
     },
     {
-      "export": 2,
+      "export": 1,
       "name": "ViherLanka_EXPORT"
     },
     {
-      "export": 2,
+      "export": 1,
       "name": "ViherLanka_HANDLES"
     }
   ]

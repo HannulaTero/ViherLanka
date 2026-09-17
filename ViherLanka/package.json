@@ -1,9 +1,9 @@
 {
   "name": "@terpatin/viherlanka",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "https://github.com/HannulaTero/ViherLanka\r\nhttps://terohannula.itch.io/viherlanka\r\n\r\nThis asset allows you to split execution over several frames. In short, if you setup ViherLanka in Step-event, it will execute one split in one frame, and optionally moves to next split. By default it always moves to next split for next frame, but if you return \"false\" (telling split hasn't been finished), it will execute the same split on next frame too. You may put ViherLanka in loop, so it keeps advancing multiple splits.",
   "files": [
-    "com.terpatin.viherlanka-1.0.2.yymps"
+    "com.terpatin.viherlanka-1.0.4.yymps"
   ],
   "keywords": [
     "greenthread"
